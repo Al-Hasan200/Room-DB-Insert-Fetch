@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".MainActivity2"
     android:orientation="vertical">
 
     <EditText
@@ -13,7 +13,7 @@
         android:hint="Enter Product Name"
         android:layout_margin="10dp"
         android:padding="10dp"
-        android:id="@+id/productName"/>
+        android:id="@+id/uProductName"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -21,21 +21,15 @@
         android:hint="Enter Product Price"
         android:layout_margin="10dp"
         android:padding="10dp"
-        android:id="@+id/productPrice"/>
+        android:id="@+id/uProductPrice"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="22dp"
-        android:text="Save Product"
+        android:text="Update Product"
         android:layout_margin="10dp"
         android:padding="10dp"
-        android:id="@+id/saveProduct"/>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/recyclerView"
-        android:layout_margin="10dp"/>
+        android:id="@+id/updateProduct"/>
 
 </LinearLayout>
